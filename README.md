@@ -10,10 +10,10 @@ The project give the bike-sharing-details among three big cites namely New York 
 Popular times of Travel- most common month, most common day_of_week and most common hour of the day.
 Popular Stations and Trips - most common start station, most common end station and most common start to end stations.
 Trip Duration - total travel time and average travel time.
-User info - number of time a user as used bike_share, counts of user in each gender and Date of birth of earliest, most recent and most common year of births.
+User info - number of time a user as used bike_share, counts of user in each gender(only NYC and Chicago) and Date of birth of earliest, most recent and most common year of births (only NYC and CHicago).
 
 ### Files used
-Include the files used
+The datasets files chicago1.csv, washington1.csv and new_york_city1.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
