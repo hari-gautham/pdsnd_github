@@ -16,4 +16,5 @@ User info - number of time a user as used bike_share, counts of user in each gen
 The datasets files chicago1.csv, washington1.csv and new_york_city1.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Google light house repo given me general idea of how to write README file. and organize the github :  https://github.com/GoogleChrome/lighthouse.git
+Udacity.com has helped how to structure this writing the bike_share project.
