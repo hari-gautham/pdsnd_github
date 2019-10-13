@@ -1,8 +1,8 @@
 ### Date created
-The bikeshare project was created on 12th October 2019 along with this README.md file
+The bike share project was created on 12th October 2019 along with this README.md file
 
 ### Project Title
-pdnsd_github - Bikeshare
+Bike Share project using python.  
 
 ### Description
 The project give the bike-sharing-details among three big cites namely New York City, Chicago and Washington. The details like 'Popular times of travel, Popular Stations and trips, Trip duration and User info'.
