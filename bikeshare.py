@@ -48,7 +48,7 @@ def get_filters():
     day = day.lower()
     while True:
         if day not in ('monday','tuesday', 'wednesday','thursday', 'friday', 'saturday','sunday', 'all'):
-            print("Invalid Response!! Try again.\n")
+            print("Invalid Response!! Try different one.\n")
             continue
         else:
             break
@@ -68,7 +68,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    # load data file into a dataframe //from pratice 3 
+    # load data file into a dataframe //from pratice 3
     df = pd.read_csv(CITY_DATA[city])
 
     # convert the Start Time column to datetime
@@ -185,7 +185,7 @@ def user_stats(df):
 
     Most_Common_Year = df['Birth Year'].value_counts().idxmax()
     print('\nMost Common Year:', Most_Common_Year)
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
