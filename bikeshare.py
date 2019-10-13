@@ -48,7 +48,7 @@ def get_filters():
     day = day.lower()
     while True:
         if day not in ('monday','tuesday', 'wednesday','thursday', 'friday', 'saturday','sunday', 'all'):
-            print("Invalid Response!! Try again.\n")
+            print("Invalid Response!! Try different one.\n")
             continue
         else:
             break
@@ -107,12 +107,12 @@ def time_stats(df):
 
     # the most common day of week
     popular_day = df['day_of_week'].mode()[0]
-    print('Popular day is {}. \n'.format(popular_day))
+    print('Popular day of the week is {}. \n'.format(popular_day))
 
     #the most common start hour
     df['hour'] = df['Start Time'].dt.hour
     popular_hour = df['hour'].mode()[0]
-    print('Popular hour is {}. \n'.format(popular_hour))
+    print('Popular hour in day is {}. \n'.format(popular_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
